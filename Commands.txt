@@ -1,0 +1,37 @@
+Dynamically Type programming language
+
+IDE
+
+VSCODE
+PYCHARM
+
+
+VSCODE extension
+
+flake8
+pylance
+
+
+casting --> changing data types
+
+
+git init
+git add .  -- add all files to stage
+git config --global user.email "e03shiranr@gmail.com"
+git config --global user.name "e03shiranr"
+git commit -m "first commit"
+
+After the modification
+git init
+git add .  -- add all files to stage
+git commit -m "second commit"
+git push origin master
+
+git branch  --check branch
+git checkout main  -- switch branch
+git branch SLT   --create branch SLT
+git push origin SLT
+
+
+
+
