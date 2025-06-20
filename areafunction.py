@@ -1,9 +1,10 @@
+
 def calculate_area(length, width):
-    area = lenght * width
-    retun(area)
+    return length*width
 
 
-length = input("Please enter width:")
-width = input("Please enter length:")
-area = calculate_area(length,width)
-print("Total area is {area}")
+length = int(input("Please enter width:"))
+width = int(input("Please enter length:"))
+area = calculate_area(length, width)
+print(f"Total area is {area}")
+
