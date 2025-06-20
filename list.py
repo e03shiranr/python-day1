@@ -1,0 +1,11 @@
+temperatures = [25.5, 28.1, 22.9, 31.2, 27.8, 24.3, 29.5]
+temperatures.append(31.0)
+temp = temperatures.pop(2)
+print(temp)
+max_temperature = max(temperatures)
+print(max_temperature)
+min_temperature = min(temperatures)
+print(min_temperature)
+print(temperatures)
+average_temp = sum(temperatures) / len(temperatures)
+print(f"Average Temperature : {average_temp:.2f}")

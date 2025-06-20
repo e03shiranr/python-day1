@@ -1,5 +1,7 @@
 class NegativeNumberError(ValueError):
-    pass
+    def returnerror(ValueError):
+        print(ValueError)
+    
 
 def get_positive_number():
     while True:
