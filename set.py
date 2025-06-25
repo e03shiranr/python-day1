@@ -1,6 +1,6 @@
 print("--- Set Operation ---")
 set_a = {10, 20, 30, 40, 50, 60, 70}
-set_b = {40, 50, 60, 70, 80, 90, 100}
+set_b = {40, 50, 60, 70, 80, 90}
 
 print(f"Set A: {set_a}")
 print(f"Set B: {set_b}")
@@ -22,4 +22,4 @@ unique_elements_set = set(my_list)
 print(f"Set created from list is: {unique_elements_set}")
 
 unique_set = list(unique_elements_set)
-print(f"Unique Set: {unique_set}")
+print(f"list conveted to Set: {unique_set}")
